@@ -44,7 +44,7 @@ function sendEmail(to_name, to_email, from_name, from_email, subject, message_ht
             from_email, 
             to_email,
             subject,
-            'Thanks so much for applying ' + to_name + ', See you soon on our website!',
+            'Thanks so much for joining us ' + to_name + '! See you soon on our website!',
             'noreply@example.com', {},
             function(err) {
                 if (err) console.log('Oh noes: ' + err);

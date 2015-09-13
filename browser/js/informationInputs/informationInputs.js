@@ -1,7 +1,7 @@
 app.config(function ($stateProvider) {
 
     $stateProvider.state('input', {
-        url: '/input',
+        url: '/',
         templateUrl: 'js/informationInputs/informationInputs.html',
         controller: 'infoCtrl'
     });
