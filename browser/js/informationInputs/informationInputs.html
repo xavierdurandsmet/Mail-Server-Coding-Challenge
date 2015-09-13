@@ -1,0 +1,26 @@
+<div class="generaldiv col-lg-6 col-md-9 col-sm-12">
+    <form class="input-list style-1 clearfix" id="info-form" name="infoForm" ng-submit="sendInfo(info)">
+
+        <alert type="danger" ng-show="error">
+            {{ error }}
+        </alert>
+
+        <div class="form-group">
+            <label for="info-firstName">First Name</label>
+            <input type="text" ng-model="info.firstName" class="form-control" id="info-firstName" placeholder="Enter your first Name">
+        </div>
+        <div class="form-group">
+            <label for="info-lastName">Last Name</label>
+            <input type="text" ng-model="info.lastName" class="form-control" id="info-lastName" placeholder="Enter your last Name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="text" ng-model="info.email" class="form-control" id="email" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label for="info-password">Password</label>
+            <input type="password" ng-model="info.password" class="form-control" id="info-password" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div>
