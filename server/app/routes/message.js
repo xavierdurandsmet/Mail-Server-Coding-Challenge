@@ -1,8 +1,6 @@
 var router = require('express').Router();
 module.exports = router;
 
-var mongoose = require('mongoose');
-
 var sendMessage = require('../mailServers/sendEmail.js'); //takes: to_name, to_email, from_name, from_email, subject, message_html
 
   	  // receive call from front-end
