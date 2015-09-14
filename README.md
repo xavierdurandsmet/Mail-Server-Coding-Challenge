@@ -6,7 +6,7 @@ Create a service that accepts the necessary information and sends emails. It sho
 
 ### The solution
 
-I created a service (focusing on fullStack) that sends an automated email to the recipient by taking the email and name of recipient,as inputs. It is backed by Mandrill as main povider, and Mandrill, as back-up provider
+I created a service (focusing on fullStack) that sends an automated email to the recipient by taking the email and name of recipient,as inputs. It is backed by Mandrill as main povider, and MailGun, as back-up provider
 
 ## Technical Choices
 
